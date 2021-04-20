@@ -1,0 +1,16 @@
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+}
+.about img{
+    width: 100%;
+}
+.about h5
+{
+    
+    font-weight: bold;
+    margin-top: 20px;
+}
+.about span{
+    color: #7E60FA;
+}

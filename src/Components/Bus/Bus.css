@@ -1,0 +1,120 @@
+.booking-bg {
+  background-image: url("../../assets/images/bus.jpg");
+  padding-top: 65px;
+  background-size: 100% 100%;
+  height: 450px;
+  text-align: center;
+}
+.travel {
+  padding: 10px;
+  box-shadow: 5px 5px 5px #e2e2e2;
+}
+.badge {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #ffcf00 !important ;
+}
+.book-btn {
+  padding: 7px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #ffcf00;
+  background-color: #ffcf00;
+}
+.book-btn:hover {
+  border-color: #7e60fa;
+  background-color: #7e60fa;
+}
+.book-btn a {
+  color: white;
+  text-decoration: none;
+}
+.seats {
+  display: grid;
+  grid-template-columns: 1fr minmax(750px, 1fr);
+}
+.seats .availablity {
+  text-align: left;
+}
+.seats .available {
+  background-color: #ffcf00 !important;
+  color: white;
+  width: 45px;
+  height: 40px;
+}
+.seats .selected {
+  margin: 5px 0;
+  background-color: green !important;
+  color: white;
+  width: 45px;
+  height: 40px;
+}
+.book {
+  margin-right: 10px;
+}
+.seats .bus {
+  padding: 40px 0px 0px 0px;
+  border: 2px solid #ffcf00;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.seats .bus .btn {
+  margin: 2px;
+}
+.seats .bus .btn-secondary {
+  background-color: #f1f1f1 !important;
+}
+.seats .bus .btn-warning {
+  background-color: #ffcf00 ;
+}
+.seats .unavailable,
+.seats .bus .unavailable {
+  background-color: #7e60fa !important;
+  color: white;
+  width: 45px;
+  height: 40px;
+}
+.seats .bus a {
+  width: 45px;
+}
+
+.seats .bus .driver {
+  width: 45px;
+  padding: 6px;
+  background-color: red !important;
+}
+.seats .bus .driver img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.disabled:disabled{
+}
+.selected-seat{
+  background-color: green !important;
+}
+@media (max-width: 482px) {
+  .seats {
+    grid-template-columns: minmax(750px, 1fr);
+  }
+  .bus {
+    margin-top: 20px;
+  }
+  .book-btn,
+  .badge {
+    font-size: 10px;
+  }
+}
+@media (min-width: 482px) and (max-width: 767px) {
+  .seats {
+    grid-template-columns: minmax(750px, 1fr);
+  }
+  .bus {
+    margin-top: 20px;
+  }
+}

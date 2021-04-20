@@ -1,0 +1,190 @@
+.cities .cities-group {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 20px;
+}
+.cities-paragraph{
+  width: 60%;
+}
+.cities a {
+  color: #fff;
+}
+.cities .main-city {
+  height: 422px;
+  color: #fff;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-image: url(../../assets/images/aswan.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.cities .main-city h4 {
+  padding: 30px;
+  direction: ltr !important;
+}
+.cities .main-city h4 .fa-heart {
+ margin-left: 570px;
+}
+.cities .main-city h3 {
+  padding: 220px 30px 0px 40px;
+}
+.cities  h3 a:hover{
+  text-decoration: none;
+  color: #ffcf00;
+}
+
+.cities .main-city p {
+  padding: 5px 30px;
+}
+.cities .main-city .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #3a415e6b;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.cities .main-city .overlay:hover {
+  transition: 0.5s;
+  background-color: #3a415e00;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.cities .city {
+  height: 230px;
+  color: #fff;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.cities .sharm {
+  background-image: url(../../assets/images/sharm.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cities .luxor {
+  background-image: url(../../assets/images/luxor.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cities .aswan {
+  background-image: url(../../assets/images/aboelhool.PNG);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+.main-images img {
+  width: 100%;
+  height: 180px;
+  border-radius: 25px;
+}
+.main-images img:hover {
+  opacity: 0.8;
+}
+.cities .city h4 {
+  padding: 30px;
+  direction: ltr !important;
+}
+.cities .city h4 .fa-heart {
+  margin-left: 200px;
+}
+.cities .city h3 {
+  padding: 40px 30px 0px 30px;
+}
+.cities .city p {
+  padding: 5px 30px;
+}
+.cities .city .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #3a415e4b;
+  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.cities .city .overlay:hover {
+  transition: 0.5s;
+  background-color: #3a415e00;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.cities .details {
+  width: 100%;
+  z-index: 1;
+}
+.cities .details h4 {
+  color: #3a415e;
+  padding: 10px 15px 0px 15px;
+}
+.cities h2 span {
+  color: #7e60fa;
+}
+.cities table {
+  margin: 20px 10px;
+}
+.cities table tbody tr td {
+  padding: 5px;
+}
+.cities table tbody tr td strong {
+  color: #3a415e;
+}
+@media (max-width: 482px) {
+  .cities .cities-group {
+    grid-template-columns: minmax(300px , 1fr);
+  }
+  .main-images img {
+    height: 240px;
+  }
+}
+@media (min-width: 482px) and (max-width: 767px) {
+  .cities .cities-group {
+    grid-template-columns: minmax(300px , 1fr);
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .cities .cities-group {
+    grid-template-columns: minmax(400px , 1fr) 1fr;
+  }
+  .main-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .cities .city h4 {
+    padding: 30px 10px;
+  }
+  .cities .city h4 .fa-heart {
+    right: 10px;
+  }
+  .cities .city h3 {
+    padding: 40px 10px 0px 10px;
+  }
+  .cities .city p {
+    padding-left: 10px;
+  }
+}

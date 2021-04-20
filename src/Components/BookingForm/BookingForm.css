@@ -1,0 +1,58 @@
+.booking {
+  width: 95%;
+  padding: 5px;
+  margin: auto;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  top: -95px;
+}
+.booking .input-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  background-color: #7e60fa;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.booking .input-group-text {
+  background-color: #fff;
+  margin: 5px;
+}
+.booking .form-control {
+  border: none;
+}
+.booking .fa-calendar-alt {
+  color: #7e60fa;
+}
+.booking .search {
+  color: #fff;
+  background-color: #ffcf00;
+  border-radius: 10px;
+}
+.booking .search:hover {
+  background-color: #7e60fa;
+  border-color: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.booking .search-button a {
+  color: black;
+}
+.booking .search-button:hover a {
+  color: white;
+}
+.booking input {
+  overflow: hidden;
+}
