@@ -1,16 +1,21 @@
-.about{
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+}
+.about img {
+  width: 100%;
+}
+.about h5 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.about span {
+  color: #7e60fa;
+}
+
+@media (max-width: 482px) {
+  .about {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
-}
-.about img{
-    width: 100%;
-}
-.about h5
-{
-    
-    font-weight: bold;
-    margin-top: 20px;
-}
-.about span{
-    color: #7E60FA;
+    grid-template-columns: minmax(320px, 1fr);
+  }
 }

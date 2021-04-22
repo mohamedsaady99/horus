@@ -79,8 +79,14 @@
   color: #ffcf00;
 }
 @media (max-width: 482px) {
+  .contact .overlay .contact-details h2 {
+    font-size: 27px;
+  }
   .community-group {
     grid-template-columns: 1fr;
+  }
+  .community-paragraph {
+    width: 100%;
   }
   .post {
     grid-template-columns: 1fr;
@@ -90,9 +96,12 @@
     padding: 10px;
   }
   .community h3 a {
-    font-size: 25px;
+    font-size: 24px;
   }
   .community h5 span {
+    padding-right: 65px;
+  }
+  .community .videos h6 span {
     padding-right: 110px;
   }
   .community img {
@@ -107,6 +116,9 @@
   .community-group {
     grid-template-columns: 1fr;
   }
+  .community-paragraph {
+    width: 100%;
+  }
   .post {
     grid-template-columns: 1fr 2fr;
     border-top-left-radius: 25px;
@@ -115,12 +127,18 @@
     font-size: 20px;
   }
   .community h5 span {
-    padding-right: 60px;
+    padding-right: 70px;
+  }
+  .community .videos h6 span {
+    padding-right: 285px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .community-group {
     grid-template-columns: 2fr 1fr;
+  }
+  .community-paragraph {
+    width: 100%;
   }
   .post {
     grid-template-columns: 1fr 2fr;
@@ -140,7 +158,7 @@
     padding-right: 40px;
   }
   .community .videos h6 span {
-    padding-right: 100px;
+    padding-right: 4px;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {

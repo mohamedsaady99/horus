@@ -28,7 +28,7 @@ class Bus extends Component {
                     <div className="container   text-center">
                         <div className="booking-bg"></div>
                         <BookingForm />
-                        <h3>{t('bus.from')} <strong className="badge badge-success">{t('bus.travelFrom')}</strong> {t('bus.to')}  <strong className="badge badge-success">{t('bus.travelTo')}</strong></h3>
+                        <h3 className="bus-h1">{t('bus.from')} <strong className="badge badge-success">{t('bus.travelFrom')}</strong> {t('bus.to')}  <strong className="badge badge-success">{t('bus.travelTo')}</strong></h3>
                         <div>
                             <div className="travel row mt-5">
                                 <div className="col">

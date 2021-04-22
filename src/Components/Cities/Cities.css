@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 350px;
   gap: 20px;
 }
-.cities-paragraph{
+.cities-paragraph {
   width: 60%;
 }
 .cities a {
@@ -27,12 +27,12 @@
   direction: ltr !important;
 }
 .cities .main-city h4 .fa-heart {
- margin-left: 570px;
+  margin-left: 570px;
 }
 .cities .main-city h3 {
   padding: 220px 30px 0px 40px;
 }
-.cities  h3 a:hover{
+.cities h3 a:hover {
   text-decoration: none;
   color: #ffcf00;
 }
@@ -111,6 +111,7 @@
 .cities .city h4 .fa-heart {
   margin-left: 200px;
 }
+
 .cities .city h3 {
   padding: 40px 30px 0px 30px;
 }
@@ -155,31 +156,61 @@
 }
 @media (max-width: 482px) {
   .cities .cities-group {
-    grid-template-columns: minmax(300px , 1fr);
+    grid-template-columns: minmax(300px, 1fr);
+  }
+  .cities-paragraph {
+    width: 100%;
   }
   .main-images img {
     height: 240px;
   }
+  .cities .main-city h4 .fa-heart {
+    margin-left: 185px;
+  }
+  .cities .city h4 .fa-heart {
+    margin-left: 180px;
+  }
+
+  .cities table tbody tr td {
+    font-size: 13px;
+}
 }
 @media (min-width: 482px) and (max-width: 767px) {
   .cities .cities-group {
-    grid-template-columns: minmax(300px , 1fr);
+    grid-template-columns: minmax(300px, 1fr);
+  }
+  .cities-paragraph {
+    width: 100%;
+  }
+  .cities .main-city h4 .fa-heart {
+    margin-left: 350px;
+  }
+  .cities .city h4 .fa-heart {
+    margin-left: 360px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 992px) {
   .cities .cities-group {
-    grid-template-columns: minmax(400px , 1fr) 1fr;
+    grid-template-columns: minmax(400px, 1fr) 1fr;
+  }
+  .cities-paragraph {
+    width: 100%;
   }
   .main-images {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 20px;
   }
   .cities .city h4 {
     padding: 30px 10px;
   }
+  .cities .main-city h4 .fa-heart {
+    margin-left: 240px;
+  }
   .cities .city h4 .fa-heart {
     right: 10px;
+    margin-left: 148px;
   }
   .cities .city h3 {
     padding: 40px 10px 0px 10px;

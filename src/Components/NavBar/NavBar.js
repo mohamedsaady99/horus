@@ -13,6 +13,9 @@ const NavBar = () => {
         document.body.style.direction = "rtl";
         document.body.style.textAlign = "right";
         i18n.changeLanguage('ar');
+        $('.navbar-brand img ').css({
+            'marginRight': '0px'
+        });
         $('.post img').css({
             "borderTopRightRadius": '25px',
             "borderTopLeftRadius": '0px',
@@ -38,9 +41,7 @@ const NavBar = () => {
         $('.contact .overlay div:last-of-type').css({
             'marginLeft': '30px'
         });
-        $('.navbar-brand img ').css({
-            'marginRight': '0px'
-        });
+       
         $(' .seats .availablity').css({
             'textAlign': 'right'
         });
@@ -50,14 +51,13 @@ const NavBar = () => {
             $('.navbar-brand img').css({
                 "right": "-55px",
             });
-            $('.cities-paragraph,.community-paragraph,.contact-paragraph').css({
-                "width": "100%",
-            });
+          
             $('.community h5 span').css({
-                "paddingLeft": "60px",
+                "paddingLeft": "15px",
+                "paddingRight": "5px"
             });
             $('.community .videos h6 span').css({
-                "paddingLeft": "140px",
+                "paddingLeft": "80px",
                 "paddingRight": "0px"
             });
             $('.post img').css({
@@ -67,15 +67,20 @@ const NavBar = () => {
                 'marginRight': '0px',
                 'marginLeft': '30px'
             });
+            $('.contact input').css({
+                'marginRight': '-15px',
+            });
+            $('.contact input[type="checkbox"]').css({
+                'marginRight': '0px',
+            });
+           
         }
         //media queries screens >= 482px to 767px
         if ($(window).width() >= 482 && $(window).width() <= 767) {
             $('.navbar-brand img').css({
                 "right": "-55px",
             });
-            $('.cities-paragraph,.community-paragraph,.contact-paragraph').css({
-                "width": "100%",
-            });
+           
             $('.community h5 span').css({
                 "paddingLeft": "25px",
             });
@@ -91,8 +96,29 @@ const NavBar = () => {
             });
         }
         if ($(window).width() >= 767 && $(window).width() <= 991) {
+            $('.navbar-brand img ').css({
+                'left': '55px'
+            });
             $('.contact .overlay div:last-of-type').css({
                 'marginLeft': '20px'
+            });
+            $('.community h5 span').css({
+                "paddingLeft": "0px",
+            });
+            $('.community .videos h6 span').css({
+                "paddingLeft": "0px",
+                "paddingRight": "0px",
+                "fontSize":"13px",
+                "fontWeight":"bold"
+            });
+            $('.cities .city h4 .fa-heart').css({
+                "paddingRight": "10px",
+            });
+            $('.contact input').css({
+                'width': '242px',
+            });
+            $('.contact input[type="checkbox"]').css({
+                'width': '0px',
             });
         }
     };
@@ -101,10 +127,7 @@ const NavBar = () => {
         document.body.style.textAlign = "left";
         i18n.changeLanguage('en');
         $('.post img').css({
-            "borderTopRightRadius": '0px',
-            "borderTopLeftRadius": '25px',
-            "borderBottomRightRadius": '0px',
-            "borderBottomLeftRadius": '25px',
+            "borderRadius": '25px',
         });
         $('.community h5 span').css({
             "paddingLeft": "0px",
@@ -118,20 +141,29 @@ const NavBar = () => {
             "marginRight": "0px",
             "marginLeft": "40px",
         });
-        $('.navbar-brand img ').css({
-            'marginRight': '360px'
-        });
+        
         $(' .seats .availablity').css({
             'textAlign': 'left'
         });
         //media queries screens >= 482px
         if ($(window).width() <= 482) {
             $('.community h5 span').css({
-                "paddingRight": "125px"
+                "paddingRight": "65px"
             });
             $('.contact .overlay div:last-of-type').css({
                 'marginRight': '30px',
                 'marginLeft': '0px'
+            });
+            $('.community .videos h6 span').css({
+                "paddingRight": "105px"
+            });
+        }
+        if ($(window).width() >= 482 && $(window).width() <= 767) {
+            $('.community h5 span').css({
+                "paddingRight": "75px"
+            });
+            $('.community .videos h6 span').css({
+                "paddingRight": "285px"
             });
         }
         if ($(window).width() >= 767 && $(window).width() <= 991) {
@@ -139,7 +171,10 @@ const NavBar = () => {
                 "paddingRight": "30px"
             });
             $('.community .videos h6 span').css({
-                "paddingRight": "6px"
+                "paddingRight": "5px"
+            });
+            $('.navbar-brand img ').css({
+                'left': '-40px'
             });
         }
 

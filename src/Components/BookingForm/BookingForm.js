@@ -44,7 +44,6 @@ const BookingForm = () => {
                            e.target.value
                         )
                      }} />
-                  <i class="fas fa-calendar-alt"></i>
                </div>
                <div className="input-group-text">
                   <input className="form-control"
@@ -55,7 +54,6 @@ const BookingForm = () => {
                            e.target.value
                         )
                      }} />
-                  <i class="fas fa-calendar-alt"></i>
                </div>
                <div className="input-group-text search">
                   <input className="form-control search" type="submit" value={t("booking.search")} />

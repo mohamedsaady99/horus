@@ -12,3 +12,9 @@
     color: #7E60FA ;
     margin-left: 10px;
 }
+@media (max-width: 481px){
+    .footer p
+    {
+        font-size: 13px;
+    }
+}

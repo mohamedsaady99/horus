@@ -9,6 +9,9 @@
   padding: 10px;
   box-shadow: 5px 5px 5px #e2e2e2;
 }
+.bus-h1{
+  font-size: 20px;
+}
 .badge {
   font-size: 18px;
   padding: 10px;
@@ -105,10 +108,7 @@
   .bus {
     margin-top: 20px;
   }
-  .book-btn,
-  .badge {
-    font-size: 10px;
-  }
+
 }
 @media (min-width: 482px) and (max-width: 767px) {
   .seats {

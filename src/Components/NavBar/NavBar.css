@@ -60,7 +60,7 @@
 @media (min-width: 300px) and (max-width: 482px) {
   .navbar-brand img {
     position: relative;
-    left: -60px;
+    left: -45px;
     margin-right: 0px;
   }
   .header-bg h1 {
@@ -80,7 +80,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand img {
     position: relative;
-    left: -60px;
+    left: -40px;
     margin-right: 100px;
   }
 }
