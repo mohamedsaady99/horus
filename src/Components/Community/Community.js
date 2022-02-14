@@ -27,6 +27,8 @@ const Community = () => {
         <div className="community container">
             <h2><span>03</span> {t("Community.title")}</h2>
             <p className="community-paragraph">   {t("Community.paragraph")}</p>
+            <p dir="auto">This is a paragraph that starts with a latin character</p>
+            <p dir="auto">هذا النص يستخدم حروف عربية</p>
             <div className="community-group">
                 <div className="  posts ">
                     <div>

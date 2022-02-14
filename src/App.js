@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Route ,BrowserRouter } from 'react-router-dom';
@@ -10,10 +10,13 @@ import Contact from './Components/Contact/Contact';
 import Flight from './Components/Flight/Flight';
 import Hotels from './Components/Hotels/Hotels';
 import Dashboard from './Components/Dashboard/Dashboard';
+import { useTranslation } from 'react-i18next';
 
-class App extends Component {
-      state={}
-      render(){
+function App(){ 
+  const { i18n } = useTranslation();
+  useEffect(() => {
+    document.dir = i18n.dir();
+  }, [i18n, i18n.language]);
         return (
           <BrowserRouter className="App">
             <NavBar/>
@@ -27,6 +30,5 @@ class App extends Component {
           </BrowserRouter>
         );
       }
-    }
 
 export default App;
