@@ -1,0 +1,96 @@
+{
+    "NavBar": {
+        "1": "Hotels",
+        "2": "Flights",
+        "3": "Bus",
+        "4": "Contact",
+        "5": "About",
+        "lang": "العربية"
+    },
+    "about": {
+        "title": "About ",
+        "paragraph": "   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquipLorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquipLorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore "
+    },
+    "header": {
+        "title": " Horus",
+        "paragraph": "Your Way to Happy"
+    },
+    "booking": {
+        "from": "from",
+        "to": "to",
+        "search": "search"
+    },
+    "cities": {
+        "title": "Cities",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip,",
+        "aswan": "Aswan",
+        "sharm": "Sharm",
+        "luxor": "Luxor",
+        "giza": "Giza",
+        "details": "Details",
+        "cityTitle": "Lorem ipsum dolor sit amet",
+        "ticket": "Ticket price",
+        "ticketPrice": "$250",
+        "season": "Best season ",
+        "bestSeason": "Jan -Feb",
+        "average": "Average day ",
+        "averageDay": "$85",
+        "program": " Program ",
+        "programType": "Culture"
+    },
+    "Community": {
+        "title": "Community",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip,",
+        "p":"Lorem ipsum dolor sit amet,consectetur adipiscing elit consectetur adipiscing elit",
+        "p1": " The Royal Parade of the Mummies",
+        "p2": " 8 things surprised in Cairo",
+        "p3": " All things in Aswan",
+        "p4": " Phiala island in Aswan",
+        "p5": " Magic Horizon Balloons Luxor ",
+        "p6": " Beautiful beaches in Sharm El-sheikh",
+        "time":"Aug 04 . 5 min read"
+    },
+    "contact": {
+        "title": "Contact",
+        "paragraph": "Lorem ipsum dolor , consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip,",
+        "p":"Lorem ipsum dolor sit amet,consectetur adipiscing elit consectetur adipiscing elit",
+        "horus":"Horus",
+        "organizeTravel":"Organize Your Travel ",
+        "signUp":"Sign Up",
+        "login":"Login",
+        "name":"Name",
+        "password":"Password",
+        "email":"Email",
+        "termOfPolicy":"I agree all terms & conditions"
+    },
+    "hotels":{
+        "title":"The best hotels on the best beaches",
+        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+        "hotel1":"Plaza Hotel ",
+        "hotel2":"Sheraton Hotel",
+        "hotel3":"Sameramis Hotel",
+        "hotel4":"Nile Hotel",
+        "hotel5":"Ramsis Hotel",
+        "hotel6":"Almasa Hotel",
+        "hotel7":"Cataract Hotel",
+        "hotel8":"Phiala Hotel",
+        "hotel9":"Almaza Hotel",
+        "book":"book"
+
+    },
+    "bus":{
+        "from":" Travel from",
+        "to":"to",
+        "travelFrom":"Cairo",
+        "travelTo":"Aswan",
+        "book":"Book now",
+        "selectSeats":"Select Seats",
+        "cancel":"Cancel",
+        "availableSeats":"Available Seats",
+        "selectedSeats":"Selected Seats",
+        "unAvailableSeats":"unAvailable Seats",
+        "youSelected":"You selected",
+        "totalPrice":"Total price",
+         "seat":"seats"
+    }
+}
